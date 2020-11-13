@@ -1,5 +1,5 @@
 header.page-header {
-    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    background: no-repeat left/cover url(I:\赤潮项目/HAB_weiwenyu/图/donghai_new.jpg);
     display: flex;
     height: 120px;
     min-width: 120px;
