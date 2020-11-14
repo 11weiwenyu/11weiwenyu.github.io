@@ -2,10 +2,3 @@ html {
     background-attachment: fixed;
     background-color: greenyellow
 }
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #45a1ff;
-    color: #fff;
-}
