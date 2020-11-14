@@ -1,9 +1,7 @@
-article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+html {
+    background-attachment: fixed;
+    background-color: greenyellow
 }
-
 footer {
     display: flex;
     justify-content: center;
@@ -11,4 +9,3 @@ footer {
     background-color: #45a1ff;
     color: #fff;
 }
-
