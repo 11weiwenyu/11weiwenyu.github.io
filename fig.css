@@ -1,11 +1,11 @@
 html {
   font-size: 10px;
   font-family: 'Noto Sans SC', sans-serif;
-  background-color: #00539F;
+  background-color: gray;
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
@@ -16,7 +16,11 @@ h1 {
   font-size: 60px;
   text-align: center;
   color: black;
+}
 
+h2 {
+  font-size: 40px;
+  text-align: center;
 }
 
 p, li,u1 {
