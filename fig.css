@@ -1,13 +1,11 @@
 h1 {
   font-size: 60px;
   text-align: center;
-   margin: 0;
-  padding: 20px 0;    
-  color: blue;
+  color: red;
 
 }
 
-p, li {
+p, li,u1 {
   font-size: 16px;
   /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */    
   line-height: 2;
