@@ -12,7 +12,7 @@ body {
   background-color: white;
   margin: 0 auto;
 }
-nav, aside, footer {
+nav, article footer {
   background-color: white;
   padding: 1%;
 }
@@ -82,9 +82,6 @@ img {
   display: block;
   margin: 0 auto;
   width: 500px
-}
-main {
-  display: flex;
 }
 footer {
   margin-top: 10px;
