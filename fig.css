@@ -19,7 +19,7 @@ nav, article footer {
 
 nav {
   height: 50px;
-  background-color: #33b8fa;
+  background-color:#66ccff;
   display: flex;
   margin-bottom: 10px;
 }
@@ -82,6 +82,7 @@ img {
   display: block;
   margin: 0 auto;
   align-items: center;
-  width: 500px;
+  width: 400px;
+   height: 500px;
 }
 
