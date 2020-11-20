@@ -83,3 +83,9 @@ img {
   margin: 0 auto;
   width: 500px
 }
+main {
+  display: flex;
+}
+footer {
+  margin-top: 10px;
+}
