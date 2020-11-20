@@ -12,7 +12,7 @@ body {
   background-color: white;
   margin: 0 auto;
 }
-nav, article footer {
+nav, article, footer {
   background-color: white;
   padding: 1%;
 }
@@ -83,6 +83,6 @@ img {
   margin: 0 auto;
   align-items: center;
   width: 700px;
-   height: 350px;
+   height: 400px;
 }
 
