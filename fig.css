@@ -93,15 +93,6 @@ img {
 main {
   display: flex;
 }
-aside {
-  flex: 1;
-  margin-left: 10px;
-  background-color: #66ccff;
-}
-
-aside li {
-  padding-bottom: 10px;
-}
 footer {
   margin-top: 10px;
 }
