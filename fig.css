@@ -81,6 +81,7 @@ li {
 img {
   display: block;
   margin: 0 auto;
-  width: 500px
+  align-items: center;
+  width: 500px;
 }
 
