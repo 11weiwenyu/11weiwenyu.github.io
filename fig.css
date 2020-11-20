@@ -92,9 +92,7 @@ img {
 
 /* 主体布局 */
 
-main {
-  display: flex;
-}
+
 footer {
   margin-top: 10px;
 }
