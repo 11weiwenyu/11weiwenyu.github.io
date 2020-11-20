@@ -3,8 +3,16 @@ html {
   font-family: 'Noto Sans SC', sans-serif;
   background-color: gray;
 }
+body {
+ width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
 * 标题布局 */
-nav, article, aside, footer {
+nav, aside, footer {
   background-color: white;
   padding: 1%;
 }
@@ -52,31 +60,8 @@ nav a:hover {
   transition-duration: 200ms;
 }
 
-input {
-  font-size: 1.6rem;
-  height: 32px;
-}
 
-input[type="search"] {
-  flex: 3;
-}
-
-input[type="submit"] {
-  flex: 1;
-  margin-left: 1rem;
-  background: #333;
-  border: 0;
-  color: white;
-}
-
-body {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 0 20px 20px 20px;
-  border: 1px solid black;
-}
-
+/* 文字排版 */
 h1 {
   font-size: 60px;
   text-align: center;
@@ -88,7 +73,7 @@ h2 {
   text-align: center;
 }
 
-p, li,u1 {
+p, li {
   font-size: 16px;
   /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */    
   line-height: 2;
@@ -101,8 +86,10 @@ img {
   width: 500px
 }
 
-article {
-  flex: 4;
+/* 主体布局 */
+
+main {
+  display: flex;
 }
 
 aside {
