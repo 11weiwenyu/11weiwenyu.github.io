@@ -62,13 +62,13 @@ nav a:hover {
 }
 /* 文字排版 */
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: black;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -85,6 +85,6 @@ img {
   margin: 0 auto;
   align-items: center;
   width: 700px;
-   height: 400px;
+   height: 500px;
 }
 
