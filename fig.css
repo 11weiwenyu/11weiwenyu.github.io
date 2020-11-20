@@ -19,7 +19,7 @@ nav, article footer {
 
 nav {
   height: 50px;
-  background-color: black;
+  background-color: #33b8fa;
   display: flex;
   margin-bottom: 10px;
 }
