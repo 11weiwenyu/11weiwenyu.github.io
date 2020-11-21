@@ -84,7 +84,7 @@ figure img {
     flex-flow: column;
     padding: 5px;
     max-width: 300px;
-  max-height: 400px;
+  max-height: 300px;
     margin: auto;  
 }
 figcaption {
