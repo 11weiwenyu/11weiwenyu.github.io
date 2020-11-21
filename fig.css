@@ -82,15 +82,13 @@ figure img {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
-    padding: 5px;
-    width: 300px;
-  height: 300px;
+    padding: 10px;
     margin: auto;  
 }
 figcaption {
     background-color: white;
     color: black;
-    font: italic smaller sans-serif;
+   font-size: 16px;
     padding: 3px;
     text-align: center;
 }
