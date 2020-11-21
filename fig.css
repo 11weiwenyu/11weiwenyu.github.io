@@ -34,7 +34,7 @@ nav ul {
 nav li {
   display: inline;
   text-align: center;
-  flex: 1;
+  flex: 4;
 }
 
 nav a {
@@ -51,7 +51,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 1em;
+  padding: 0 5em;
 }
 
 nav a:hover {
