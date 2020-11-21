@@ -18,7 +18,7 @@ nav, article, footer {
 }
 
 nav {
-  height: 50px;
+  height: 40px;
   background-color:#66ccff;
   display: flex;
   margin-bottom: 10px;
@@ -85,7 +85,7 @@ img {
   margin: 0 auto;
   align-items: center;
   width: 700px;
-   height: 800px;
+   height: 500px;
 }
 
 footer {
