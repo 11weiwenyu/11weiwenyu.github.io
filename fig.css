@@ -78,15 +78,33 @@ p, li {
   letter-spacing: 1px;
   line-height: 1.5;
 }
-
-img {
-  display: block;
-  margin: 0 auto;
-  align-items: center;
-  width: 700px;
-   height: 500px;
+figure img {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;  
+}
+figcaption {
+    background-color: white;
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+figure ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
 }
 
+figure li {
+  display: inline;
+  text-align: center;
+  flex: 4;
+}
 footer {
   margin-top: 10px;
 }
