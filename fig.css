@@ -60,7 +60,7 @@ nav a:hover {
 }
 article {
   background: #ccc;
-  padding: 5px;
+  padding: 20px;
 }
 article h2 {
   margin-top: 0;
@@ -87,7 +87,8 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0 5px 5px 0;
+  margin: 5px;
+  padding: 10px;
 }
 figure img {
     display: flex;
