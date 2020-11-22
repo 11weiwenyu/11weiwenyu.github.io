@@ -85,7 +85,7 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-figure,hr {
+figure{
      border-bottom: 3px solid #375e97;
       padding: 0px;
       margin: auto;
@@ -118,4 +118,5 @@ figure li {
 }
 footer {
   margin-top: 10px;
+  background-color:#ebe8e8;
 }
