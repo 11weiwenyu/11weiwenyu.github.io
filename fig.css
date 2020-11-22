@@ -18,10 +18,9 @@ header {
 }
 nav {
   height: 40px;
-  background-color:#e3ebf0;
+  background-color:#ebe8e8;
   display: flex;
-  margin-bottom: 0px;
-  padding: 1%;
+   padding: 1%;
 }
 
 nav ul {
@@ -34,7 +33,7 @@ nav ul {
 nav li {
   display: inline;
   text-align: center;
-  flex: 4;
+  flex: 1;
 }
 
 nav a {
@@ -55,7 +54,7 @@ nav form {
 }
 
 nav a:hover {
-  color: white;
+  color: rgb(247, 235, 235);
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
 }
@@ -70,9 +69,6 @@ article img {
   float: left;
   margin: 0 5px 5px 0;
   max-width: 100%;
-}
-article p {
-  line-height: 2;
 }
 /* 文字排版 */
 h1 {
