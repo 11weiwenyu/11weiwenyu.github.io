@@ -50,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 nav a:hover {
@@ -60,15 +60,18 @@ nav a:hover {
 }
 article {
   background: #ccc;
-  padding: 20px;
+  padding: 30px;
 }
 article h2 {
   margin-top: 0;
 }
 article img {
   float: left;
-  margin: 0 5px 5px 0;
+  margin: 0 5px 20px 0;
   max-width: 100%;
+}
+article p {
+  line-height: 2;
 }
 /* 文字排版 */
 h1 {
