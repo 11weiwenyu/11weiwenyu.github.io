@@ -59,10 +59,8 @@ nav a:hover {
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
 }
-main {
-  background: #ccc;
-}
 article {
+  background: #ccc;
   padding: 20px;
 }
 article h2 {
