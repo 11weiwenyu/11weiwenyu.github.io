@@ -5,7 +5,7 @@ html, body {
 html {
   font-size: 10px;
   font-family: 'Noto Sans SC', sans-serif;
-  background-color: gray;
+  background-color: black;
 }
 body {
  width: 1200px;
@@ -14,7 +14,7 @@ body {
 }
 nav, footer {
   background-color: white;
-  padding: 1%;
+  padding: 0%;
 }
 
 nav {
@@ -69,7 +69,6 @@ article h2 {
 article img {
   float: left;
   margin: 0 20px 20px 0;
-
   max-width: 100%;
 }
 /* 文字排版 */
