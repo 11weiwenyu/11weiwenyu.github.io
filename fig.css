@@ -18,7 +18,7 @@ header {
 }
 nav {
   height: 40px;
-  background-color:#66ccff;
+  background-color:#e3ebf0;
   display: flex;
   margin-bottom: 0px;
 }
@@ -59,7 +59,7 @@ nav a:hover {
   transition-duration: 200ms;
 }
 article {
-  background: #ccc;
+  background: white;
   padding: 30px;
 }
 article h2 {
