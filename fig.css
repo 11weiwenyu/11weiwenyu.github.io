@@ -50,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 2em;
+  padding: 0 5px;
 }
 
 nav a:hover {
@@ -89,7 +89,7 @@ p, li {
   /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */    
   line-height: 2;
   letter-spacing: 1px;
-  line-height: 1.5;
+  
 }
 figure img {
     display: flex;
