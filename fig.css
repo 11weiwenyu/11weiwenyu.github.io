@@ -50,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 5px;
+  padding: 0 3px;
 }
 
 nav a:hover {
