@@ -11,12 +11,11 @@ body {
  width: 1200px;
   background-color: white;
   margin: 0 auto;
+  position: relative;
 }
-nav, footer {
-  background-color: white;
-  padding: 0%;
+header {
+  height: 150px;
 }
-
 nav {
   height: 40px;
   background-color:#66ccff;
@@ -51,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 5em;
+  padding: 0;
 }
 
 nav a:hover {
@@ -68,7 +67,7 @@ article h2 {
 }
 article img {
   float: left;
-  margin: 0 20px 20px 0;
+  margin: 0 50px 5px 0;
   max-width: 100%;
 }
 /* 文字排版 */
@@ -77,7 +76,6 @@ h1 {
   text-align: center;
   color: black;
 }
-
 h2 {
   font-size: 30px;
   text-align: center;
@@ -91,7 +89,6 @@ p, li {
   line-height: 1.5;
 }
 figure img {
-    border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     padding: 10px;
