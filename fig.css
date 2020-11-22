@@ -60,7 +60,7 @@ nav a:hover {
 }
 article {
   background: white;
-  padding: 5px;
+  padding: 10px;
    border-bottom: 3px solid #375e97;
 }
 article h2 {
@@ -110,6 +110,7 @@ figure ul {
 }
 p,li {
    font-size: 16px;
+   padding: 10px;
 }
 figure li {
   display: inline;
@@ -118,5 +119,5 @@ figure li {
 }
 footer {
   margin-top: 10px;
-  background-color:#ebe8e8;
+  background-color:gray;
 }
