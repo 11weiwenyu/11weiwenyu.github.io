@@ -20,7 +20,7 @@ nav {
   height: 40px;
   background-color:#ebe8e8;
   display: flex;
-   padding: 2%;
+   padding: 1%;
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 5px;
+  padding: 0 6px;
 }
 
 nav a:hover {
@@ -59,7 +59,7 @@ nav a:hover {
   transition-duration: 200ms;
 }
 article {
-  background: rgb(199, 195, 195);
+  background: white;
   padding: 5px;
 }
 article h2 {
