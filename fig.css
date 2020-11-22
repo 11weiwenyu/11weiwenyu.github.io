@@ -61,6 +61,7 @@ nav a:hover {
 article {
   background: white;
   padding: 5px;
+   border-bottom: 3px solid #375e97;
 }
 article h2 {
   margin-top: 0;
