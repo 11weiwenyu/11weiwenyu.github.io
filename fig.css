@@ -85,6 +85,11 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
+figure,hr {
+     border-bottom: 3px solid #375e97;
+      padding: 0px;
+      margin: auto;
+}
 figure img {
     display: flex;
     flex-flow: column;
