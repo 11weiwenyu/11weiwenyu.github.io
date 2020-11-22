@@ -12,7 +12,7 @@ body {
   background-color: white;
   margin: 0 auto;
 }
-nav, article, footer {
+nav, footer {
   background-color: white;
   padding: 1%;
 }
@@ -58,6 +58,21 @@ nav a:hover {
   color: white;
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
+}
+main {
+  background: #ccc;
+}
+article {
+  padding: 20px;
+}
+article h2 {
+  margin-top: 0;
+}
+article img {
+  float: left;
+  margin: 0 20px 20px 0;
+
+  max-width: 100%;
 }
 /* 文字排版 */
 h1 {
