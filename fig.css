@@ -14,13 +14,13 @@ body {
   position: relative;
 }
 header {
-  height: 150px;
+  height: 80px;
 }
 nav {
   height: 40px;
   background-color:#66ccff;
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 nav ul {
@@ -60,14 +60,14 @@ nav a:hover {
 }
 article {
   background: #ccc;
-  padding: 20px;
+  padding: 10px;
 }
 article h2 {
   margin-top: 0;
 }
 article img {
   float: left;
-  margin: 0 50px 5px 0;
+  margin: 0 5px 5px 0;
   max-width: 100%;
 }
 /* 文字排版 */
@@ -87,6 +87,7 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
   line-height: 1.5;
+  padding: 3px;
 }
 figure img {
     display: flex;
