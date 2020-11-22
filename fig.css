@@ -50,7 +50,7 @@ nav form {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0;
+  padding: 2px;
 }
 
 nav a:hover {
@@ -87,7 +87,7 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
   line-height: 1.5;
-  padding: 3px;
+  padding: 30px;
 }
 figure img {
     display: flex;
