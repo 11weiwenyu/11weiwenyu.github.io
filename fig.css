@@ -59,16 +59,19 @@ nav a:hover {
   transition-duration: 200ms;
 }
 article {
-  background: white;
-  padding: 30px;
+  background: rgb(199, 195, 195);
+  padding: 5px;
 }
 article h2 {
   margin-top: 0;
 }
 article img {
   float: left;
-  margin: 0 5px 5px 0;
+  margin: 0 10px 10px 0;
   max-width: 100%;
+}
+article p {
+  line-height: 2;
 }
 /* 文字排版 */
 h1 {
@@ -79,12 +82,6 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */    
-  line-height: 2;
 }
 figure img {
     display: flex;
