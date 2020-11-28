@@ -51,13 +51,13 @@ h2 {
 }
 figure{
      border-bottom: 3px solid #375e97;
-      padding: 0px;
+      padding: 10px;
       margin: auto;
 }
 figure img {
     display: flex;
     flex-flow: column;
-    padding: 10px;
+    padding: 0px;
     margin: auto;  
 }
 figcaption {
