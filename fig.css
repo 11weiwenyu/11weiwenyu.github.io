@@ -16,12 +16,15 @@ body {
 header {
   height: 80px;
 }
-
+p,li {
+   font-size: 16px;
+   padding: 12px;
+}
 nav {
   height: 40px;
   background-color:#ebe8e8;
   display: flex;
-   padding: 100%;
+   padding: 1%;
 }
 
 nav ul {
