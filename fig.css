@@ -16,6 +16,10 @@ body {
 header {
   height: 80px;
 }
+p,li {
+   font-size: 16px;
+   padding: 15px;
+}
 nav {
   height: 40px;
   background-color:#ebe8e8;
@@ -111,10 +115,6 @@ figure li {
   display: inline;
   text-align: center;
   flex: 4;
-}
-p,li {
-   font-size: 16px;
-   padding: 15px;
 }
 footer {
   margin-top: 20px;
