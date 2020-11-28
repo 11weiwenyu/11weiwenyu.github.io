@@ -21,9 +21,10 @@ p,li {
    padding: 12px;
 }
 nav {
-  height: 30px;
+  height: 40px;
   background-color:#ebe8e8;
   display: flex;
+  padding: 5px;
 }
 
 nav ul {
