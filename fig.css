@@ -19,12 +19,14 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 nav {
   height: 40px;
   background-color:#ebe8e8;
   display: flex;
-  padding: 15px;
+  padding: 1%;
 }
 
 nav ul {
