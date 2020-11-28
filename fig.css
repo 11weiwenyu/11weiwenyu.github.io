@@ -18,6 +18,7 @@ header {
 }
 p,li {
    font-size: 16px;
+  line-height: 2;
 }
 nav {
   height: 40px;
