@@ -11,7 +11,6 @@ body {
  width: 80%;
   background-color: white;
   margin: 0 auto;
-  position: relative;
 }
 header {
   height: 80px;
@@ -86,7 +85,7 @@ aside {
   background-color:#ebe8e8;
   padding: 1%;
   flex: 1;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 aside li {
   padding-bottom: 10px;
