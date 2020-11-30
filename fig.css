@@ -82,10 +82,9 @@ h2 {
   flex: 4;
 }
 aside {
+  margin-bottom:10px;
   background-color:#ebe8e8;
   flex: 1;
-  margin-right: 10px;
-  margin-bottom: 30px;
   float: right;
 }
 aside li {
