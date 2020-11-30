@@ -18,6 +18,8 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
+    padding-right: 10px;
+  padding-left: 10px;
 }
 article {
   background: white;
@@ -87,7 +89,6 @@ aside {
   margin-left:10px;
   background-color:#ebe8e8;
   flex: 1;
-  float: right;
 }
 aside li {
   padding-bottom: 10px;
