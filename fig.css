@@ -49,30 +49,30 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-figure{
+.f1 figure{
      border-bottom: 3px solid #375e97;
       padding: 10px;
       margin: auto;
 }
-figure img {
+.f1 figure img {
     display: flex;
     flex-flow: column;
     padding: 0px;
     margin: auto;  
 }
-figcaption {
+.f1 figcaption {
     background-color: white;
     color: black;
     padding: 10px;
     text-align: center;
 }
-figure ul {
+.f1 figure ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
-figure li {
+.f1 figure li {
   display: inline;
   text-align: center;
   flex: 4;
