@@ -43,6 +43,10 @@ article p {
   line-height: 2;
    font-size: 16px;
 }
+nav, article, aside, footer {
+  background-color: white;
+  padding: 1%;
+}
 /* 文字排版 */
 h1 {
   font-size: 50px;
@@ -82,7 +86,7 @@ h2 {
   flex: 4;
 }
 aside {
-  margin-bottom:10px;
+  margin-left:10px;
   background-color:#ebe8e8;
   flex: 1;
   float: right;
