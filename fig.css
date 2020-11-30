@@ -84,12 +84,14 @@ h2 {
 }
 aside {
   float: left;
-  height: 40px;
   background-color:#ebe8e8;
   display: flex;
   padding: 1%;
   flex: 1;
   margin-right: 10px;
+}
+aside li {
+  padding-bottom: 10px;
 }
 nav {
   height: 40px;
