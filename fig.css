@@ -8,7 +8,7 @@ html {
   background-color: white;
 }
 body {
- width: 80%;
+ width: 70%;
   background-color: white;
   margin: 0 auto;
 }
@@ -84,8 +84,9 @@ h2 {
 aside {
   background-color:#ebe8e8;
   flex: 1;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 30px;
+  float: right;
 }
 aside li {
   padding-bottom: 10px;
