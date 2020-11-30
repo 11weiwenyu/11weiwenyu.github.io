@@ -84,13 +84,12 @@ h2 {
   flex: 4;
 }
 aside {
-   padding: 1%;
-  background-color:#ebe8e8;
+  background-color:white;
   flex: 1;
-  margin-left:10px;
+  margin-left:-30px;
   float: left;
     width: 200px;
-    height: 4000px;
+    height: 400px;
 }
 aside li {
   padding-bottom: 10px;
