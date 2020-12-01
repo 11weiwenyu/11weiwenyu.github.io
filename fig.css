@@ -91,12 +91,10 @@ aside {
  float: left;
     width: 150px;
     height: 400px;
-  display: flex;
   padding: 1%;
 }
 aside li {
   padding-bottom: 10px;
-  text-align: center;
 }
 nav {
   height: 40px;
