@@ -11,7 +11,7 @@
       <h1>1中国近海有害藻华</h1>
     </header>
        <main>
-	 <div class="a1">       
+	 <div class="a1" id="a1">       
     <div class="nav">
           <li class="f1">首页
         </li>
@@ -196,8 +196,8 @@
            <main>
         <script>
 	  var box = document.getElementById("a1");
-	  var spans = box.getElementsByTagName("nav1 li");
-	  var lis = box.getElementsByTagName("section");
+	  var spans = document.querySelectorAll("nav1 li");
+	  var lis = document.querySelectorAll("section");
 	  for (var i = 0; i < spans.length; i++) {
 	    spans[i].aaa = i;
 	    spans[i].onclick = function () {
