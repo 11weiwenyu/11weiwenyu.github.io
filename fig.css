@@ -85,7 +85,7 @@ h2 {
   flex: 4;
 }
 aside {
-  background-color:white;
+  background-color:black;
   flex: 1;
  margin-right: 0px;
  float: left;
@@ -95,7 +95,7 @@ aside {
   padding: 1%;
 }
 aside li {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   text-align: center;
 }
 nav {
