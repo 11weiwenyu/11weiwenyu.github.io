@@ -88,12 +88,14 @@ aside {
   background-color:white;
   flex: 1;
  margin-right: 10px;
-  float: left;
+ float: left;
     width: 180px;
     height: 400px;
 }
 aside li {
   padding-bottom: 10px;
+  display: inline;
+  text-align: center;
 }
 nav {
   height: 40px;
