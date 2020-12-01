@@ -95,8 +95,7 @@ aside {
   padding: 1%;
 }
 aside li {
-  padding-bottom: 0px;
-  display: inline;
+  padding-bottom: 5px;
   text-align: center;
 }
 nav {
