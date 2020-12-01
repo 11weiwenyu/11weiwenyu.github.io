@@ -29,15 +29,16 @@ article h2 {
   margin-top: 0;
 }
 .e1 img {
-  float: left;
+  float: center;
   margin: 0 10px 10px 0;
   max-width: 100%;
 }
- article img {
+.n1,.n2,.n3 img {
   float: right;
   margin: 0 10px 10px 0;
   max-width: 100%;
 }
+ 
 article p {
   line-height: 2;
    font-size: 16px;
