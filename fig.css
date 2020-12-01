@@ -28,12 +28,12 @@ article {
 article h2 {
   margin-top: 0;
 }
-.f1 article img {
+.e1 article img {
   float: left;
   margin: 0 10px 10px 0;
   max-width: 100%;
 }
-.f2 article img {
+.selected article img {
   float: right;
   margin: 0 10px 10px 0;
   max-width: 100%;
@@ -56,29 +56,29 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-.f1 figure{
+.selected figure{
       padding: 15px;
       margin: auto;
 }
-.f1 figure img {
+.selected figure img {
     display: flex;
     flex-flow: column;
     padding: 0px;
     margin: auto;  
 }
-.f1 figcaption {
+.selected figcaption {
     background-color: white;
     color: black;
     padding: 15px;
     text-align: center;
 }
-.f1 figure ul {
+.selected figure ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
-.f1 figure li {
+.selected figure li {
   display: inline;
   text-align: center;
   flex: 4;
