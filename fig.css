@@ -87,11 +87,10 @@ h2 {
 aside {
   background-color:black;
   flex: 1;
- margin-right: 0px;
+ margin-right: 5px;
  float: left;
     width: 150px;
     height: 400px;
-  padding: 1%;
 }
 aside li {
   padding-bottom: 10px;
