@@ -8,16 +8,16 @@
   </head> 
  <body>
   <header>
-      <h1>中国近海有害藻华???</h1>
+      <h1>中国近海有害藻华!!</h1>
     </header>
    <section class="info-web">
        <main>
     <nav>
-          <a href="#0" class="selected">首页</a>
+          <li class="selected"><a href="">首页</a>
         </li>
-        <li><a href="#0">HAB的时空分布</a></li>
-        <li><a href="#0">HAB原因种的时空分布</a></li>
-        <li><a href="#0">HAB的环境影响因素</a></li>
+        <li><a href="">HAB的时空分布</a></li>
+        <li><a href="">HAB原因种的时空分布</a></li>
+        <li><a href="">HAB的环境影响因素</a></li>
       </ul>
     </nav>
      
@@ -28,10 +28,10 @@
         <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
-          <li><a href="#m1">项目介绍</a></li>
-          <li><a href="#m2">有害藻华的定义</a></li>
-          <li><a href="#m3">有害藻华的危害</a></li>
-          <li><a href="#m4">有害藻华的原因种类型</a></li>
+          <li><a href=" ">项目介绍</a></li>
+          <li><a href=" ">有害藻华的定义</a></li>
+          <li><a href=" ">有害藻华的危害</a></li>
+          <li><a href=" ">有害藻华的原因种类型</a></li>
         </ul>
       </aside>
        
@@ -97,7 +97,7 @@
        </section>
       </div>  
      
-     <div>
+     <div class="f1">
        <section class="ff2">
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
@@ -134,7 +134,7 @@
          </section>
          </div>   
      
-       <div>
+       <div class="f1">
          <section class="ff3">
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
@@ -183,7 +183,7 @@
             </section>
            </div>
          
-         <div>
+         <div class="f1">
             <section class="ff4">
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
@@ -203,29 +203,27 @@
            </div>
            <main>
              <script>
-             var tabs = document.querySelectorAll('.info-web nav li a');
-var panels = document.querySelectorAll('.info-web div');
+								$(function(){
+									//获取点击事件的对象
+									$("nav li").click(function(){
+										//获取要显示或隐藏的对象
+										var divShow = $(".b1").children('.f1');
+										//判断当前对象是否被选中，如果没选中的话进入if循环
+										if (!$(this).hasClass('a1')) {
+											//获取当前对象的索引
+											var index = $(this).index();
+											//当前对象添加选中样式并且其同胞移除选中样式；
+											$(this).addClass('a1').siblings('li').removeClass('a1');
+											//索引对应的div块显示
+											$(divShow[index]).show();
+											//索引对应的div块的同胞隐藏
+											$(divShow[index]).siblings('.f1').hide();
+										}
+									});
+								});
+								
+						</script>
 
-for(i = 0; i < tabs.length; i++) {
-  var tab = tabs[i];
-}
-
-function setTabHandler(tab, tabPos) {
-  tab.onclick = function() {
-    for(i = 0; i < tabs.length; i++) {
-      tabs[i].className = '';
-    }
-
-    tab.className = 'a1';
-
-    for(i = 0; i < b1.length; i++) {
-      b1[i].className = '';
-    }
-
-    b1[tabPos].className = 'f1';
-  }
-}
-</script>
            <footer>联系我们|xxxxxxxxedu.cn </footer>
            </body>
          <html>
