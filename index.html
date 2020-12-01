@@ -8,7 +8,7 @@
   </head> 
  <body>
   <header>
-      <h1>中国近海有害藻华2</h1>
+      <h1>中国近海有害藻华z</h1>
     </header>
        <main>
     <nav class="nav1">
@@ -192,7 +192,23 @@
            </div>
            </div>
            <main>
-        <script src="main.js"></script>
+        <script>
+	  var box = document.getElementById("nav");
+	  var spans = box.getElementsByTagName("nav li a");
+	  var lis = box.getElementsByTagName("f1");
+	  for (var i = 0; i < spans.length; i++) {
+	    spans[i].aaa = i;
+	    spans[i].onclick = function () {
+	      for (var i = 0; i < spans.length; i++) {
+	        spans[i].className = "";
+	        lis[i].className = "";
+	      }
+	      this.className = "b1";
+	      lis[this.aaa].className = "b1";
+	    }
+	  }
+	</script>
+
            <footer>联系我们|xxxxxxxxedu.cn </footer>
            </body>
          <html>
