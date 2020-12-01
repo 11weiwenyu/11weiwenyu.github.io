@@ -91,9 +91,11 @@ aside {
  float: left;
     width: 150px;
     height: 400px;
+  display: flex;
+  padding: 1%;
 }
 aside li {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   display: inline;
   text-align: center;
 }
