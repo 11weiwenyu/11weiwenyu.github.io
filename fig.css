@@ -18,11 +18,11 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
-  margin-left: 100px;
 }
 article {
   background: white;
   padding: 10px;
+   margin-left: 150px;
    border-bottom: 3px solid #375e97;
 }
 article h2 {
@@ -89,7 +89,7 @@ aside {
   flex: 1;
  margin-right: 0px;
  float: left;
-    width: 100px;
+    width: 150px;
     height: 400px;
 }
 aside li {
