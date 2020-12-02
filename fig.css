@@ -115,7 +115,7 @@ nav a {
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: red;
   transition-duration: 200ms;
 }
   .info-box .panels {
