@@ -16,6 +16,54 @@ p,li {
    font-size: 16px;
   line-height: 2;
 }
+/* 文字排版 */
+header {
+  height: 80px;
+}
+
+.info-box div article {
+  background: white;
+   margin-left: 150px;
+   border-bottom: 3px solid #375e97;
+}
+
+.e1 img,.n2 img {
+  float: left;
+}
+.n1 img {
+  float: right;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+h2,h3 {
+  font-size: 30px;
+  text-align: center;
+}
+ figure img {
+    display: flex;
+    flex-flow: column;
+    margin: auto;  
+}
+ figcaption {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+ figure ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+ figure li {
+  display: inline;
+  text-align: center;
+  flex: 4;
+}
+
 /* info-box setup */
 .info-box {
     width: 85%;
@@ -78,54 +126,6 @@ info-box .panels {
     z-index: 1;
   }
 
-
-/* 文字排版 */
-header {
-  height: 80px;
-}
-
-.info-box div article {
-  background: white;
-   margin-left: 150px;
-   border-bottom: 3px solid #375e97;
-}
-
-.e1 img,.n2 img {
-  float: left;
-}
-.n1 img {
-  float: right;
-}
-h1 {
-  font-size: 50px;
-  text-align: center;
-  color: black;
-}
-h2,h3 {
-  font-size: 30px;
-  text-align: center;
-}
- figure img {
-    display: flex;
-    flex-flow: column;
-    margin: auto;  
-}
- figcaption {
-    background-color: white;
-    color: black;
-    text-align: center;
-}
- figure ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-}
- figure li {
-  display: inline;
-  text-align: center;
-  flex: 4;
-}
 aside {
   background-color:white;
   flex: 1;
@@ -138,8 +138,6 @@ aside li {
   padding-bottom: 10px;
 }
  
- 
-/-----/
 footer {
     text-align: left;
     font-size: 16px;
