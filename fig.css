@@ -21,28 +21,23 @@ p,li {
 }
 article {
   background: white;
-  padding: 10px;
+  padding: 5px;
    margin-left: 150px;
    border-bottom: 3px solid #375e97;
 }
 article h2 {
   margin-top: 0;
 }
-.e1 img {
-  float: center;
+e1 img {
+  float: left;
   margin: 0 10px 10px 0;
   max-width: 100%;
 }
 .n1,.n2,.n3 img {
   float: right;
-  margin: 0 10px 10px 0;
   max-width: 100%;
 }
  
-article p {
-  line-height: 2;
-   font-size: 16px;
-}
 nav, article, footer {
   background-color: white;
   padding: 1%;
@@ -122,6 +117,7 @@ nav a {
   color: black;
   transition-duration: 200ms;
 }
+
 footer {
   margin-top: 20px;
   background-color:#ebe8e8;
