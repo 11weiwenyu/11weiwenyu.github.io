@@ -23,7 +23,7 @@
 
   .info-box {
     width: 1100px;
-    height: 1500px;
+    height: 2000px;
     margin: 10px auto 0;
   }
 
@@ -69,15 +69,15 @@
   .info-box .panels {
     clear: both;
     position: relative;
-    height: 352px;
+    height: 2000px;
   }
 
   .info-box article {
     background-color: #b60000;
-    color: white;
+    color: black;
     position: absolute;
     padding: 10px 20px;
-    height: 352px;
+    height: 1800px;
     top: 0;
     left: 0;
   }
@@ -100,10 +100,9 @@
     <li><a href="#">Tab 3</a></li>
   </ul>
     </nav>
-  <div class="panels">
-    <article class="active-panel">
-      <h2>The first tab</h2>
- <aside> <!-- 侧边栏在主内容右侧 -->
+  <section class="panels">
+    <div class="active-panel">
+       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
           <li><a href="#m1">项目介绍</a></li>
@@ -112,14 +111,50 @@
           <li><a href="#m4">有害藻华的原因种类型</a></li>
         </ul>
       </aside>
-      <img src="封面2.jpg" alt="HABs in China" width="300" height="300">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor urna. Nulla facilisi.</p>
+       
+     <article class="e1">
+    <img src="封面2.jpg" alt="HABs in China" width="600" height="300">
+        <p>广泛存在于中国渤海、黄海、东海和南海海域的4大海域的有害藻华已经成为中国近海海域最严重的海洋灾害问题。</p>
+         <p>常发生于中国海洋近岸的河口、海湾等区域的有害藻华能造成大量的海洋生物伤亡，从而给近海养殖业、人体健康和海洋生态系统安全带来不容忽视的损害。近年来，全球气候变暖和人为污染物排放量显著增加的背景下，近海爆发愈发频繁的有害藻华的给中国海洋污染监测和治理带来巨大的挑战。</p>
+          <p>由于21世纪之前的中国近海有害藻华数据统计资料的分散性和有限性，中国近海有害藻华年际变化分布以及其发生变化机制的相关研究进展十分有限。</p>
     </article>
-    <article>
+      <article class="m1">
+       <h2>项目介绍</h2>
+         <p>近年来，已成为中国近海突出的海洋生态灾害问题的有害藻华对人体健康、社会经济和海洋生态安全造成了威胁。定量化有害藻华的时空分布和其主要原因种的变化，探究有害藻华发生机理对改善和控制有害藻华事件发生至关重要。</p>
+         <p>基于《中国赤潮灾害调查与评价1933-2009》、《赤潮100问》书籍，1989-2018年的《中国海洋环境质量状况公报》、2000-2018年的《中国海洋灾害公报》、《中国东海海区海洋环境公报》、《浙江省海洋环境状况公报》、《舟山市海洋环境状况公报》等国家、各海区和各省市的海洋公报年等文献资料，本项目校对和补充了由余弋和黄睿整理的1933年以来的中国渤海、黄海、东海和南海的有害藻华事件，量化了其时空分布变化。
+      从《中国赤潮灾害调查与评价1933-2009》以及相关网站收集有记录的有害藻华相关的所有原因种的相关界门科目科属种的相关信息，统计各海域有害藻华的主要原因种的时空分布特征。</p>
+         <p>从NOAA等网站获取了各海域对应的流域氮、海洋表面温度、风速、降水等观测和再分析的数据。使用广义线性回归建立了各个海域的特定原因种的有害藻华频数变化的驱动模型以此计算出能在最大程度解释其变化的变量组合。</p>
+         <p>项目资助方桃花源生态保护基金会蓝色倡议专项，是专注于海洋保护的资助型项目，汇集了一批热心海洋保护的企业家和慈善家共同支持海洋保护工作。 将支持高校、科研院所和社会组织展开一线保护行动。在桃花源生态保护基金会的支持下，上海交大海洋学院周韫韬团队进行了中国近海有害藻华项目的工作。</p>
+   </article>
+       <article class="m2">
+        <h2>有害藻华的定义</h2>
+         <p> 有害藻华(Harmful algal Blooms, HAB)是在一定条件下，由海洋浮游微藻或大型藻类等快速增殖或聚集，导致海洋生态系统严重破坏或引起水色变化的一种灾害性海洋生态异常现象。 赤潮（Red tide）和褐潮（Green tide）和绿潮（Brown tide）是中国HAB的主要类型。HAB常发生于东海、渤海和南海海洋近岸的河口、海湾等区域，近海,其中渤海湾、长江口和珠江口等海域是中国HAB的热点地区。</p>
+     <figure>
+     <ul>
+        <li>
+  <img src="赤潮.jpg" width="310" height="300">
+  <figcaption>赤潮(红潮)是指在一定环境条件下，海洋中的浮游微藻、原生动物或细菌等在短时间内突发性链式增值和集聚导致的水色变红的灾难。</figcaption>
+        </li>
+        <li>
+        <img src="绿潮.png" width="310" height="300">
+        <figcaption>绿潮是海洋中一些大型绿藻（如浒苔）在一定环境条件下暴发性增殖或聚集达到某一水平，导致生态环境异常的一种现象。2008-2019年中国黄海海域持续发生浒苔灾害。</figcaption>
+        </li>
+        <li>
+        <img src="褐潮.jpg" width="310" height="300">
+     <figcaption>褐潮（微微型藻藻华）是在一定环境条件下，海洋中的微微型浮游植物(以抑食金球藻为主)导致的水色变褐的灾难性海洋生态异常现象。该种HAB仅发生在美国、南非和中国附近海域。</figcaption>
+        </li>
+      </ul>
+      </figure>
+         </article> 
+	       </div>
+    <div>
+      <article>
       <h2>The second tab</h2>
 
       <p>This tab hasn't got any Lorem Ipsum in it. But the content isn't very exciting all the same.</p>
     </article>
+      </div>
+        <div>
     <article>
       <h2>The third tab</h2>
 
@@ -131,13 +166,14 @@
         <li>Nulla facilisi</li>
       </ol>
     </article>
+          </div>
   </div>
 </section>
 
 <script>
 
 var tabs = document.querySelectorAll('.info-box li a');
-var panels = document.querySelectorAll('.info-box article');
+var panels = document.querySelectorAll('.panels div');
 
 for(i = 0; i < tabs.length; i++) {
   var tab = tabs[i];
