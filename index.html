@@ -16,16 +16,16 @@
     <nav>
 	     <span class="cd-marker item-1"></span>
 	    <ul>
-          <li class="selected"><a class="glyphicon glyphicon-user" href="#0">首页</a></li>
+          <li class="selected"> <a class="glyphicon glyphicon-user" href="#0">首页</a></li>
         <li><a class="glyphicon glyphicon-fire" href="#0">HAB的时空分布</a></li>
         <li><a class="glyphicon glyphicon-film" href="#0">HAB原因种的时空分布</a></li>
         <li><a class="glyphicon glyphicon-record" href="#0">HAB的环境影响因素</a></li>
     </nav>
 	</div>
      
-      <u1 class="cd-hero-slider autoplay">
-      <li class="selected">
-       
+      <section class="selected2">
+	      
+       <div class="d1">
         <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
@@ -95,9 +95,9 @@
       <li>蓝藻：汉氏束毛藻（无毒），铜锈微囊藻（有毒）。</li>
      </ul> 
          </article>  
-      </li>  
-     
-     <li>
+	       </div>
+        
+	      <div>
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
@@ -130,9 +130,9 @@
          <p>从年际变化分布来看，1997年起，东海HAB的直接经济损失开始快速增加，2012年达到峰值 （20亿元），此后HAB没有产生明显的经济损失。于此同时，福建海域的HAB产生经济损失的热点海域，63%的HAB产生了东海HAB的88%的经济损失。</p>
           <p>[1] Zhou Y *, Wenyu Wei. (in review) Effect of sea surface temperature and precipitation on annual frequency of harmful algal blooms in the East China Sea</p>
        </article>
-         </li>   
+		      </div> 
      
-       <li>
+	        <div class="d3">
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
@@ -177,9 +177,9 @@
             <p>有毒有害原因种的HAB集中出现于21世纪后，故2000年前的各个海域的有毒有害藻种仅零星分布。21世纪后，东海HAB的原因种开始多样化，并在2003年达到峰值(20种)，随后开始下降，但在2003-2009年期间的原因种都在10种以上。HAB的原因种种类的有毒有害藻种比例在统计上有显著增加的趋势(p<0.05),并且有毒有害原因种主导的HAB的地理范围在不断扩大。</P>
              <P>从有毒有害原因种的年际分布看，米氏凯伦藻则是该海域绝大大数年份的主导有毒有害原因种，此外赤潮异弯藻和红色赤潮藻也是部分年份的主导有毒有害的原因种。从其季节分布来看，米氏凯伦藻其主导着6-9月份的有毒有害的HAB，并且给东海沿岸省市带来了严重的经济损失。然而，赤潮异弯藻对5月份的有毒有害的HAB影响较大，其他月份并未出现频数超过2次相同有毒有害原因种主导额HAB。</p>
            </article>
-           </li>
+			<div>
          
-         <li>
+    <div>
       <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
@@ -194,12 +194,40 @@
          <p>1981年以来，海洋表面温度(SST)的变化对东海海域的HAB的产生和消亡有重要影响，其中70%的所有有具体时空数据信息的HAB经历了SST升温，62%的HAB则在SST升温中消亡。</p>
          <p>对于东海HAB爆发时的海洋环境因素来说，温度和风速风向对大部分的HAB的爆发息息相关。其中，71%的东海海域的HAB的主导风向微弱的南风，并且88%的8月后的HAB都经历了南风。此外，73%的HAB的SST在20℃以上，并且7-10月的HAB的SST都高于21℃，这表明较高的SST对该海域的HAB持续发展有重要的作用。对于集中发生于5-7月的有毒有害的HAB来说，79%的HAB的.</p>
            <article>
-	       </li>
+		   </div>
            </u1>
 	      </section>
            <main>
-		<script src="main.js"></script>   
+		<script>
+      var tabs = document.querySelectorAll('.cd-slider-na li a');
+var panels = document.querySelectorAll('.cd-hero div');
+
+for(i = 0; i < tabs.length; i++) {
+  var tab = tabs[i];
+  setTabHandler(tab, i);
+}
+
+function setTabHandler(tab, tabPos) {
+  tab.onclick = function() {
+    for(i = 0; i < tabs.length; i++) {
+      if(tabs[i].getAttribute('class')) {
+        tabs[i].removeAttribute('class');
+      }
+    }
+
+    tab.setAttribute('class', 'selected');
+
+    for(i = 0; i < panels.length; i++) {
+      if(panels[i].getAttribute('class')) {
+        panels[i].removeAttribute('class');
+      }
+    }
+
+    panels[tabPos].setAttribute('class', 'd1');
+  }
+} </script>   
 		   
            <footer>联系我们|xxxxxxxxedu.cn </footer>
            </body>
          <html>
+
