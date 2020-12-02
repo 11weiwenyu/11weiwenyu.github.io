@@ -41,7 +41,7 @@ nav ul {
   nav li a {
     display: inline-block;
     text-decoration: none;
-    width: 100%;
+    width: 50px;
     line-height: 50px;
     background: #ebe8e8;
     color: #ebe8e8;
@@ -49,11 +49,11 @@ nav ul {
        font-size: 16px;
     font-weight: bold;
   }
- .info-box li a:focus, .info-box li a:hover {
+ nav li a:focus, nav li a:hover {
     background-color: #ebe8e8;
     color: #ebe8e8;
   }
-.info-box li a.active {
+nav li a.active {
     background-color: #ebe8e8;
     color: #ebe8e8;
   }
