@@ -1,54 +1,23 @@
-	jQuery(document).ready(function($){
-		var slidesWrapper = $('.cd-hero-slider');
-	
+var tabs = document.querySelectorAll('.info-box li a');
+var panels = document.querySelectorAll('.info-box div');
 
-		//check if a .cd-hero-slider exists in the DOM 
-		if ( slidesWrapper.length > 0 ) {
-				var sliderNav = $('.cd-slider-nav'),
-				navigationMarker = $('.cd-marker'),
-				slidesNumber = slidesWrapper.children('section').length,
-				visibleSlidePosition = 0;
-			//change visible slide
-			sliderNav.on('click', 'li', function(event){
-				event.preventDefault();
-				var selectedItem = $(this);
-				if(!selectedItem.hasClass('selected')) {
-					// if it's not already selected
-					var selectedPosition = selectedItem.index(),
-						activePosition = slidesWrapper.find('li.selected').index();
-					
-					if( activePosition < selectedPosition) {
-						nextSlide(slidesWrapper.find('.selected'), slidesWrapper, sliderNav, selectedPosition);
-					} else {
-						prevSlide(slidesWrapper.find('.selected'), slidesWrapper, sliderNav, selectedPosition);
-					}
+for(i = 0; i < tabs.length; i++) {
+  var tab = tabs[i];
+  setTabHandler(tab, i);
+}
 
-		function nextSlide(visibleSlide, container, pagination, n){
-			visibleSlide.removeClass('selected from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-				visibleSlide.removeClass('is-moving');
-			});
-	
+function setTabHandler(tab, tabPos) {
+  tab.onclick = function() {
+    for(i = 0; i < tabs.length; i++) {
+      tabs[i].className = '';
+    }
 
-			container.children('section').eq(n).addClass('selected from-right').prevAll().addClass('move-left');
-			checkVideo(visibleSlide, container, n);
-		}
-	
+    tab.className = 'active';
 
-		function prevSlide(visibleSlide, container, pagination, n){
-			visibleSlide.removeClass('selected from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-				visibleSlide.removeClass('is-moving');
-			});
-	
+    for(i = 0; i < panels.length; i++) {
+      panels[i].className = '';
+    }
 
-			container.children('li').eq(n).addClass('selected from-left').removeClass('move-left').nextAll().removeClass('move-left');
-			checkVideo(visibleSlide, container, n);
-		}
-	
-
-		function updateSliderNavigation(pagination, n) {
-			var navigationDot = pagination.find('.selected');
-			navigationDot.removeClass('selected');
-			pagination.find('li').eq(n).addClass('selected');
-		}
-	
-
+    panels[tabPos].className = 'active-panel';
+  }
+}
