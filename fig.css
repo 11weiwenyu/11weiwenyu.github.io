@@ -28,12 +28,12 @@ article {
 article h2 {
   margin-top: 0;
 }
-e1 img {
+.e1 img {
   float: left;
   margin: 0 10px 10px 0;
   max-width: 100%;
 }
-.n1,.n2,.n3 img {
+.n1 img {
   float: right;
   max-width: 100%;
 }
