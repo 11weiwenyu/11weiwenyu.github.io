@@ -24,10 +24,6 @@ body {
     margin: 10px auto 0;
   }
  /* styling nav */
-nav {
-  height: 50px;
-  background-color: #ebe8e8;
-}
 nav ul {
     overflow: hidden;
     background-color: #ebe8e8;
@@ -40,10 +36,10 @@ nav ul {
 nav li {
   display: inline;
     list-style-type: none;
-    width: 300px;
+    width: 150px;
 }
 nav a {
-  font-size: 30px;   
+  font-size: 16px;   
   display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -51,7 +47,6 @@ nav a {
     background: #ebe8e8;
     text-align: center;
     color: black;
-    font-weight: bold;
 }
 
  .info-box li a:focus, .info-box li a:hover {
@@ -90,9 +85,8 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
-    margin: 10px auto 0;
 }
-article {
+.info-box div article {
   background: white;
    margin-left: 150px;
    border-bottom: 3px solid #375e97;
@@ -113,19 +107,14 @@ h2,h3 {
   font-size: 30px;
   text-align: center;
 }
-.m2 figure{
-      margin: auto;
-}
  figure img {
     display: flex;
     flex-flow: column;
-    padding: 0px;
     margin: auto;  
 }
  figcaption {
     background-color: white;
     color: black;
-    padding: 10px 0px;
     text-align: center;
 }
  figure ul {
