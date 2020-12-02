@@ -23,80 +23,27 @@ body {
     height: 3000px;
     margin: 10px auto 0;
   }
-header {
-  height: 80px;
-}
-p,li {
-   font-size: 16px;
-  line-height: 2;
-    padding: 10px 10px;
-}
-article {
-  background: white;
-   margin-left: 130px;
-    padding: 10px 10px;
-   border-bottom: 3px solid #375e97;
-}
-
-.e1 img,.n2 img {
-  float: left;
-    padding: 10px 10px;
-}
-.n1 img {
-  float: right;
-}
-
-/* 文字排版 */
-h1 {
-  font-size: 50px;
-  text-align: center;
-  color: black;
-}
-h2,h3 {
-  font-size: 30px;
-  text-align: center;
-}
-.m2 figure{
-      padding: 10px 10px;
-      margin: auto;
-}
- figure img {
-    display: flex;
-    flex-flow: column;
-    padding: 0px;
-    margin: auto;  
-}
- figcaption {
-    background-color: white;
+/* styling info-box panels */
+.info-box .panels {
+    clear: both;
+    position: relative;
+    height: 3000px;
+  }
+  .info-box div {
+     background-color: white;
     color: black;
+    position: absolute;
     padding: 10px 10px;
-    text-align: center;
-}
- figure ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-}
- figure li {
-  display: inline;
-  text-align: center;
-  flex: 4;
-}
-aside {
-  background-color:white;
-  flex: 1;
- margin-right: 0px;
- float: left;
-    width: 130px;
-    height: 400px;
-}
-aside li {
-  padding-bottom: 10px;
-}
-  /* styling nav */
+    height: 3000px;
+    top: 0;
+    left: 0;
+  }
+.info-box .active-panel {
+    z-index: 1;
+  }
+ /* styling nav */
 nav ul {
-    border: 1px solid #ebe8e8;
+    background-color: #ebe8e8;
     overflow: hidden;
     height: 50px;
     margin: 0;
@@ -129,7 +76,7 @@ nav form {
 }
 
 nav a:hover {
-  color: white;
+  color: #ebe8e8;
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
 }
@@ -139,28 +86,83 @@ nav a:hover {
   }
 .info-box li a.active {
     background-color: #ebe8e8;
-    color: blak;
-  }
-
- /* styling info-box panels */
-.info-box .panels {
-    clear: both;
-    position: relative;
-    height: 3000px;
-  }
-  .info-box div {
-     background-color: white;
     color: black;
-    position: absolute;
-    padding: 10px 10px;
-    height: 3000px;
-    top: 0;
-    left: 0;
-  }
-.info-box .active-panel {
-    z-index: 1;
   }
 
+
+
+/* 文字排版 */
+header {
+  height: 80px;
+}
+p,li {
+   font-size: 16px;
+  line-height: 2;
+    padding: 10px 50px;
+}
+article {
+  background: white;
+   margin-left: 130px;
+    padding: 10px 50px;
+   border-bottom: 3px solid #375e97;
+}
+
+.e1 img,.n2 img {
+  float: left;
+    padding: 10px 10px;
+}
+.n1 img {
+  float: right;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+h2,h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.m2 figure{
+      padding: 10px 50px;
+      margin: auto;
+}
+ figure img {
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    margin: auto;  
+}
+ figcaption {
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+}
+ figure ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+ figure li {
+  display: inline;
+  text-align: center;
+  flex: 4;
+}
+aside {
+  background-color:white;
+  flex: 1;
+ margin-right: 0px;
+ float: left;
+    width: 130px;
+    height: 400px;
+}
+aside li {
+  padding-bottom: 10px;
+}
+ 
+ 
 /-----/
 footer {
     text-align: left;
