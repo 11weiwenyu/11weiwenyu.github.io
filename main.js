@@ -15,7 +15,7 @@
 				if(!selectedItem.hasClass('selected')) {
 					// if it's not already selected
 					var selectedPosition = selectedItem.index(),
-						activePosition = slidesWrapper.find('section.selected').index();
+						activePosition = slidesWrapper.find('li.selected').index();
 					
 					if( activePosition < selectedPosition) {
 						nextSlide(slidesWrapper.find('.selected'), slidesWrapper, sliderNav, selectedPosition);
