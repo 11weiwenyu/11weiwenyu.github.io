@@ -48,11 +48,6 @@ nav li {
     float: left;
     list-style-type: none;
 }
-nav a:hover {
-  color: white;
-  text-shadow: 0 0 10px wheat;
-  transition-duration: 200ms;
-}
 .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
     color: #ebe8e8;
