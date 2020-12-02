@@ -131,6 +131,9 @@ nav a {
     left: 0;
   }
 
+.info-box .active-panel {
+    z-index: 1;
+  }
 
 footer {
   margin-top: 20px;
