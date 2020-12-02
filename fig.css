@@ -118,6 +118,9 @@ nav a {
   color: red;
   transition-duration: 200ms;
 }
+.info-box li a:focus, .info-box li a:hover {
+    background-color: white;
+  }
  .info-box {
     width: 80%;
     height: 2200px;
