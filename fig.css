@@ -27,11 +27,12 @@ body {
 nav {
   height: 50px;
   background-color: #ebe8e8;
-  margin-bottom: 10px;
 }
 nav ul {
     overflow: hidden;
     background-color: #ebe8e8;
+    overflow: hidden;
+    height: 50px;
     margin: 0;
     padding: 0;
   }
@@ -42,7 +43,7 @@ nav li {
     width: 300px;
 }
 nav a {
-  font-size: 2rem;   
+  font-size: 30px;   
   display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -54,19 +55,19 @@ nav a {
 }
 
  .info-box li a:focus, .info-box li a:hover {
-    background-color: white;
+    background-color: #ebe8e8;
     color: #ebe8e8;
   }
 .info-box li a.active {
     background-color: #ebe8e8;
-    color: white;
+    color: #ebe8e8;
   }
 
 /* styling info-box panels */
 .info-box .panels {
     clear: both;
     position: relative;
-    height: 3000px;
+    height: 500px;
   }
   .info-box div {
      background-color: white;
