@@ -25,37 +25,37 @@ body {
   }
  /* styling nav */
 nav ul {
-    overflow: hidden;
-    background-color: #ebe8e8;
+    border: 1px solid #ebe8e8;
     overflow: hidden;
     height: 50px;
     margin: 0;
     padding: 0;
   }
 
-nav li {
-  display: inline;
+  nav li {
+    float: left;
     list-style-type: none;
-    width: 200px;
-}
-nav a {
-  font-size: 20px;   
-  display: inline-block;
+    width: 150px;
+  }
+
+  nav li a {
+    display: inline-block;
     text-decoration: none;
     width: 100%;
     line-height: 50px;
     background: #ebe8e8;
+    color: #ebe8e8;
     text-align: center;
-    color: black;
-}
-
+       font-size: 16px;
+    font-weight: bold;
+  }
  .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
-    color: black;
+    color: #ebe8e8;
   }
 .info-box li a.active {
     background-color: #ebe8e8;
-    color: black;
+    color: #ebe8e8;
   }
 
 /* styling info-box panels */
