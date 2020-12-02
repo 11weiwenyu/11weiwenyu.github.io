@@ -9,7 +9,7 @@
 				slidesNumber = slidesWrapper.children('section').length,
 				visibleSlidePosition = 0;
 			//change visible slide
-			sliderNav.on('click', 'section', function(event){
+			sliderNav.on('click', 'li', function(event){
 				event.preventDefault();
 				var selectedItem = $(this);
 				if(!selectedItem.hasClass('selected')) {
