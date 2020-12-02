@@ -118,6 +118,11 @@ nav a {
   color: red;
   transition-duration: 200ms;
 }
+ .info-box {
+    width: 80%;
+    height: 2200px;
+    margin: 20px auto 0;
+  }
   .info-box .panels {
     clear: both;
     position: relative;
@@ -125,7 +130,7 @@ nav a {
   }
   .info-box div {
     position: absolute;
-    height: 2300px;
+    height: 2200px;
     top: 0;
     left: 0;
   }
