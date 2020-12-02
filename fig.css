@@ -124,7 +124,6 @@ nav a {
  .info-box {
     width: 80%;
     height: 2200px;
-    margin: 20px auto 0;
   }
   .info-box .panels {
     clear: both;
@@ -132,6 +131,8 @@ nav a {
     height: 352px;
   }
   .info-box div {
+     background-color: white;
+    color: blak;
     position: absolute;
     height: 2200px;
     top: 0;
