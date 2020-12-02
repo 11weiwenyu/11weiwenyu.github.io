@@ -25,6 +25,7 @@ body {
   }
  /* styling nav */
 nav ul {
+    background: #ebe8e8;
     border: 1px solid #ebe8e8;
     overflow: hidden;
     height: 50px;
