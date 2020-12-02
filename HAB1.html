@@ -72,7 +72,7 @@
     height: 2000px;
   }
 
-  .info-box article {
+  .info-box div {
     background-color: #b60000;
     color: black;
     position: absolute;
@@ -100,7 +100,7 @@
   </ul>
  
   <section class="panels">
-    <article class="active-panel">
+    <div class="active-panel">
 <aside> <!-- 侧边栏在主内容右侧 -->
         <h2>在此页面</h2>
          <ul>
@@ -132,13 +132,13 @@
         </li>
       </ul>
       </figure>
-    </article>
-    <article>
+    </div>
+    <div>
       <h2>The second tab</h2>
 
       <p>This tab hasn't got any Lorem Ipsum in it. But the content isn't very exciting all the same.</p>
-    </article>
-    <article>
+    </div>
+    <div>
       <h2>The third tab</h2>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. And now an ordered list: how exciting!</p>
@@ -148,14 +148,14 @@
         <li>Aliquam ut porttitor urna.</li>
         <li>Nulla facilisi</li>
       </ol>
-    </article>
+    </div>
      </section>
 </section>
 
 <script>
 
 var tabs = document.querySelectorAll('.info-box li a');
-var panels = document.querySelectorAll('.info-box article');
+var panels = document.querySelectorAll('.info-box div');
 
 for(i = 0; i < tabs.length; i++) {
   var tab = tabs[i];
