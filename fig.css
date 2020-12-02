@@ -28,6 +28,7 @@ nav {
 nav ul {
     border: 1px solid  #ebe8e8;
     overflow: hidden;
+    background-color: #ebe8e8;
     margin: 0;
     padding: 0;
      flex: 2;
@@ -50,19 +51,7 @@ nav a {
     text-align: center;
     color: black;
 }
-nav form {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 2em;
-}
 
-nav a:hover {
-  color: #ebe8e8;
-  text-shadow: 0 0 10px wheat;
-  transition-duration: 200ms;
-}
  .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
     color: black;
@@ -104,18 +93,19 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
-    padding: 10px 50px;
+    margin: 10px auto 0;
+    padding: 10px 0px;
 }
 article {
   background: white;
    margin-left: 130px;
-    padding: 10px 50px;
+    padding: 10px 0px;
    border-bottom: 3px solid #375e97;
 }
 
 .e1 img,.n2 img {
   float: left;
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 .n1 img {
   float: right;
@@ -130,7 +120,7 @@ h2,h3 {
   text-align: center;
 }
 .m2 figure{
-      padding: 10px 50px;
+      padding: 10px 0px;
       margin: auto;
 }
  figure img {
@@ -142,7 +132,7 @@ h2,h3 {
  figcaption {
     background-color: white;
     color: black;
-    padding: 10px 50px;
+    padding: 10px 0px;
     text-align: center;
 }
  figure ul {
