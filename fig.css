@@ -20,13 +20,6 @@ p,li {
 header {
   height: 80px;
 }
-
-.info-box div article {
-  background: white;
-   margin-left: 150px;
-   border-bottom: 3px solid #375e97;
-}
-
 .e1 img,.n2 img {
   float: left;
 }
@@ -96,6 +89,7 @@ nav li {
     float: left;
     list-style-type: none;
 }
+
 .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
     color: #ebe8e8;
@@ -121,7 +115,11 @@ info-box .panels {
     top: 0;
     left: 0;
   }
-
+.info-box div article {
+  background: white;
+   margin-left: 150px;
+   border-bottom: 3px solid #375e97;
+}
   .info-box .active-panel {
     z-index: 1;
   }
