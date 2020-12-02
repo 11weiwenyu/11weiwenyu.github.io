@@ -63,7 +63,6 @@ nav a:hover {
     color: #ebe8e8;
   }
 /* styling info-box panels */
-.info-box .panels {
 info-box .panels {
     clear: both;
     position: relative;
