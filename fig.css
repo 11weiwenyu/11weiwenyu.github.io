@@ -9,7 +9,7 @@ html {
 }
 body {
  width: 90%;
-  height: 5500px;
+  height: 2500px;
   background-color: white;
   margin: 0 auto;
 }
@@ -125,7 +125,7 @@ nav a {
   }
   .info-box div {
     position: absolute;
-    height: 5000px;
+    height: 2300px;
     top: 0;
     left: 0;
   }
