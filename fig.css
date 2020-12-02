@@ -9,7 +9,6 @@ html {
 }
 body {
  width: 90%;
-  height: 2500px;
   background-color: white;
   margin: 0 auto;
 }
@@ -90,6 +89,14 @@ aside {
 aside li {
   padding-bottom: 10px;
 }
+/* info-box setup */
+.info-box {
+    width: 80%;
+    height: 2500px;
+    margin: 10px auto 0;
+  }
+
+  /* styling nav */
 nav {
   height: 40px;
   background-color:#ebe8e8;
@@ -98,43 +105,57 @@ nav {
 }
 
 nav ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-}
+    border: 1px solid #ebe8e8;
+    overflow: hidden;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
 
 nav li {
-  display: inline;
-  text-align: center;
-  flex: 1;
+  float: left;
+    list-style-type: none;
+    width: 150px;
 }
 nav a {
   display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  transition-duration: 200ms;
+    text-decoration: none;
+    width: 100%;
+    line-height: 50px;
+    background: #ebe8e8;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
-  .info-box .panels {
+ .info-box li a:focus, .info-box li a:hover {
+    background-color: #ebe8e8;
+    color: black;
+  }
+.info-box li a.active {
+    background-color: #ebe8e8;
+    color: blak;
+  }
+
+ /* styling info-box panels */
+.info-box .panels {
     clear: both;
     position: relative;
-    height: 352px;
+    height: 500px;
   }
   .info-box div {
      background-color: white;
     color: black;
     position: absolute;
+    padding: 10px 10px;
     height: 2200px;
     top: 0;
     left: 0;
   }
-
 .info-box .active-panel {
     z-index: 1;
   }
 
+/-----/
 footer {
   margin-top: 20px;
   background-color:#ebe8e8;
