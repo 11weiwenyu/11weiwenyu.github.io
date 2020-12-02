@@ -9,6 +9,7 @@ html {
 }
 body {
  width: 90%;
+  height: 5500px;
   background-color: white;
   margin: 0 auto;
 }
@@ -117,6 +118,21 @@ nav a {
   color: black;
   transition-duration: 200ms;
 }
+  .info-box .panels {
+    clear: both;
+    position: relative;
+    height: 352px;
+  }
+  .info-box div {
+    position: absolute;
+    height: 5000px;
+    top: 0;
+    left: 0;
+  }
+
+  .info-box .active-panel {
+    z-index: 1;
+  }
 
 footer {
   margin-top: 20px;
