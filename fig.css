@@ -44,6 +44,7 @@ nav li {
 nav a {
   font-size: 2rem;   
   display: inline-block;
+   text-transform: uppercase;
     text-decoration: none;
     width: 100%;
     line-height: 50px;
@@ -53,12 +54,12 @@ nav a {
 }
 
  .info-box li a:focus, .info-box li a:hover {
-    background-color: #ebe8e8;
-    color: black;
+    background-color: white;
+    color: #ebe8e8;
   }
 .info-box li a.active {
     background-color: #ebe8e8;
-    color: black;
+    color: white;
   }
 /* info-box setup */
 .info-box {
@@ -98,7 +99,7 @@ p,li {
 }
 article {
   background: white;
-   margin-left: 130px;
+   margin-left: 150px;
     padding: 10px 0px;
    border-bottom: 3px solid #375e97;
 }
@@ -151,7 +152,7 @@ aside {
   flex: 1;
  margin-right: 0px;
  float: left;
-    width: 130px;
+    width: 150px;
     height: 400px;
 }
 aside li {
