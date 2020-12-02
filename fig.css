@@ -28,7 +28,7 @@ article {
 article h2 {
   margin-top: 0;
 }
-.e1 img {
+.e1 img,.n2 img {
   float: left;
   margin: 0 10px 10px 0;
   max-width: 100%;
