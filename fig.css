@@ -43,8 +43,7 @@ article h2 {
   float: right;
   max-width: 100%;
 }
- 
-nav, article, footer {
+ article {
   background-color: white;
   padding: 10px 10px;
 }
@@ -98,8 +97,8 @@ aside li {
 }
 /* info-box setup */
 .info-box {
-    width: 1200px;
-    height: 2500px;
+    width: 1100px;
+    height: 3000px;
     margin: 10px auto 0;
   }
 
@@ -153,7 +152,7 @@ nav li a {
     color: black;
     position: absolute;
     padding: 10px 10px;
-    height: 2500px;
+    height: 3000px;
     top: 0;
     left: 0;
   }
@@ -163,6 +162,6 @@ nav li a {
 
 /-----/
 footer {
-  margin-top: 10px;
+  margin-top: 30px;
   background-color:#ebe8e8;
 }
