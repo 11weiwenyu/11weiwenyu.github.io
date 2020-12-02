@@ -13,20 +13,19 @@ html {
   }
 
 body {
- width: 80%;
   background-color: white;
   margin: 0 auto;
 }
 /* info-box setup */
 .info-box {
-    width: 1100px;
+    width: 85%;
     height: 3000px;
     margin: 10px auto 0;
   }
  /* styling nav */
 nav {
   height: 50px;
-  background-color: #66ccff;
+  background-color: #ebe8e8;
   display: flex;
   margin-bottom: 10px;
 }
@@ -36,12 +35,18 @@ nav ul {
   list-style-type: none;
   flex: 2;
   display: flex;
+    overflow: hidden;
+    height: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
   display: inline;
   text-align: center;
   flex: 1;
+    float: left;
+    list-style-type: none;
 }
 
 nav a {
@@ -51,6 +56,8 @@ nav a {
   text-decoration: none;
   color: black;
   transition-duration: 200ms;
+    text-align: center;
+    font-weight: bold;
 }
 
 nav form {
@@ -66,22 +73,34 @@ nav a:hover {
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
 }
+.info-box li a:focus, .info-box li a:hover {
+    background-color: #ebe8e8;
+    color: #ebe8e8;
+  }
+
+  .info-box li a.active {
+    background-color:#ebe8e8;
+    color: #ebe8e8;
+  }
 /* styling info-box panels */
 .info-box .panels {
+info-box .panels {
     clear: both;
     position: relative;
     height: 2800px;
   }
+
   .info-box div {
-     background-color: white;
-    color: black;
+    background-color: white;
+    color: blak;
     position: absolute;
-    padding: 10px 10px;
+    padding: 10px 20px;
     height: 3000px;
     top: 0;
     left: 0;
   }
-.info-box .active-panel {
+
+  .info-box .active-panel {
     z-index: 1;
   }
 
