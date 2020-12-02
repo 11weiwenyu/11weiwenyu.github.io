@@ -23,6 +23,7 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
+    padding: 10px 10px;
 }
 article {
   background: white;
@@ -36,6 +37,7 @@ article h2 {
 .e1 img,.n2 img {
   float: left;
   max-width: 100%;
+    padding: 10px 10px;
 }
 .n1 img {
   float: right;
@@ -44,7 +46,7 @@ article h2 {
  
 nav, article, footer {
   background-color: white;
-  padding: 1%;
+  padding: 10px 10px;
 }
 /* 文字排版 */
 h1 {
@@ -103,10 +105,9 @@ aside li {
 
   /* styling nav */
 nav {
-  height: 40px;
+  height: 50px;
   background-color:#ebe8e8;
   display: flex;
-  padding: 1%;
   font-size: 16px;
 }
 
@@ -123,7 +124,7 @@ nav li {
     list-style-type: none;
     width: 150px;
 }
-nav a {
+nav li a {
   display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -131,7 +132,6 @@ nav a {
     background: #ebe8e8;
     color: black;
     text-align: center;
-    font-weight: bold;
 }
  .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
@@ -146,14 +146,14 @@ nav a {
 .info-box .panels {
     clear: both;
     position: relative;
-    height: 500px;
+    height: 2500px;
   }
   .info-box div {
      background-color: white;
     color: black;
     position: absolute;
     padding: 10px 10px;
-    height: 2200px;
+    height: 2500px;
     top: 0;
     left: 0;
   }
@@ -163,6 +163,6 @@ nav a {
 
 /-----/
 footer {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color:#ebe8e8;
 }
