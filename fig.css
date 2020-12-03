@@ -25,7 +25,7 @@ p,li {
 .e1 img,.n2 img {
   float: left;
   margin-right: 30px;
-  padding-right:5px;
+  padding-left:5px;
 }
 .n1 img {
   float: right;
