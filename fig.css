@@ -26,9 +26,13 @@ h1 {
   text-align: center;
   color: black;
 }
-h2,h3 {
+h2 {
   font-size: 30px;
   text-align: center;
+}
+h3{
+    font-size:20px;
+    text-align:left
 }
  figure img {
     display: flex;
@@ -51,6 +55,12 @@ h2,h3 {
   text-align: center;
   flex: 4;
 }
+/* info-box setup */
+.info-box {
+    width: 85%;
+    height: 3000px;
+    margin: 10px auto 0;
+  }
 
 
 
