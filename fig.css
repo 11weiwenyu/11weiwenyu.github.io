@@ -113,7 +113,7 @@ info-box .panels {
     position: absolute;
     padding: 10px 10px;
     height: 3000px;
-    top: 0;
+    top: 50px;
     left: 0;
   }
 .info-box div article {
