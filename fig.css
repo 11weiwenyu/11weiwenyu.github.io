@@ -108,19 +108,7 @@ info-box .panels {
     height: 2800px;
   }
 
-  .info-box div {
-    background-color: white;
-    color: black;
-    position: absolute;
-    padding: 10px 10px;
-    height: 2800px;
-    top: 50px;
-    left: 0;
-  }
-
-  .info-box .active-panel {
-      z-index: 1;
-}
+  
 
 aside {
   background-color:white;
