@@ -67,45 +67,7 @@ h3{
     margin: 15px auto 0;
   }
  /* styling nav */
- nav ul {
-    border: 1px solid #b60000;
-    overflow: hidden;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-  }
 
-  nav li {
-    float: left;
-    list-style-type: none;
-    width: 150px;
-  }
-
- nav a {
-    display: inline-block;
-    text-decoration: none;
-    width: 100%;
-    line-height: 50px;
-    background: white;
-    color: #b60000;
-    text-align: center;
-    font-weight: bold;
-  }
-
-
-
-.info-box li a:focus, .info-box li a:hover {
-    background-color: #ebe8e8;
-    color: black;
-  }
-
-  .info-box li a.active {
-    background-color:#ebe8e8;
-    color: black;
-  }
-
-
-  
 
 aside {
   background-color:white;
