@@ -28,7 +28,7 @@
 
   /* styling info-box tabs */
 
-   .info-box ul {
+   nav ul {
     border: 1px solid #b60000;
     overflow: hidden;
     height: 50px;
@@ -36,13 +36,13 @@
     padding: 0;
   }
 
-  .info-box li {
+  nav li {
     float: left;
     list-style-type: none;
     width: 300px;
   }
 
-  .info-box li a {
+ nav a {
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -54,7 +54,7 @@
   }
 
   .info-box li a:focus, .info-box li a:hover {
-    background-color: #b60000;
+    background-color: #ebe8e8;
     color: white;
   }
 
@@ -98,12 +98,13 @@
 <body>
 
 <section class="info-box">
+  <nav>
   <ul>
     <li><a href="#" class="active">首页</a></li>
     <li><a href="#">分布特征</a></li>
     <li><a href="#">Tab haha</a></li>
   </ul>
- 
+ </nav>
   <section class="panels">
     <div class="active-panel">
 <aside> <!-- 侧边栏在主内容右侧 -->
