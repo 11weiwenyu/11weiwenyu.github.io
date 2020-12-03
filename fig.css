@@ -9,7 +9,7 @@ html {
 
 /* 文字排版 */
 header {
-  height: 80px;
+  height: 10px;
 }
 p,li {
    font-size: 16px;
@@ -67,38 +67,32 @@ h3{
     margin: 15px auto 0;
   }
  /* styling nav */
-nav {
-  height: 50px;
-  background-color: #ebe8e8;
-  display: flex;
-  margin-bottom: 10px;
-}
-
-nav ul {
-  list-style-type: none;
+ nav ul {
+    border: 1px solid #b60000;
     overflow: hidden;
     height: 50px;
     margin: 0;
     padding: 0;
-}
+  }
 
-nav li {
-  display: inline;
-  flex: 1;
-    float: center;
+  nav li {
+    float: left;
     list-style-type: none;
     width: 150px;
-}
-nav a{
+  }
+
+ nav a {
     display: inline-block;
     text-decoration: none;
     width: 100%;
     line-height: 50px;
-    background: #ebe8e8;
-    color: black;
+    background: white;
+    color: #b60000;
     text-align: center;
     font-weight: bold;
-}
+  }
+
+
 
 .info-box li a:focus, .info-box li a:hover {
     background-color: #ebe8e8;
