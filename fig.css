@@ -9,7 +9,7 @@ html {
 
 /* 文字排版 */
 header {
-  height: 10px;
+  height: 80px;
 }
 p,li {
    font-size: 16px;
@@ -64,7 +64,7 @@ h3{
 .info-box {
     width: 85%;
     height: 3000px;
-    margin: 10px auto 0;
+    margin: 15px auto 0;
   }
  /* styling nav */
 nav {
@@ -89,6 +89,16 @@ nav li {
   flex: 1;
     float: left;
     list-style-type: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    line-height: 50px;
+    background: white;
+    color: #ebe8e8;
+    text-align: center;
+    font-weight: bold;
 }
 
 .info-box li a:focus, .info-box li a:hover {
