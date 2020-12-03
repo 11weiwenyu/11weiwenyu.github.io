@@ -61,6 +61,42 @@ h3{
     height: 3000px;
     margin: 10px auto 0;
   }
+ /* styling nav */
+nav {
+  height: 50px;
+  background-color: #ebe8e8;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+    overflow: hidden;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+    float: left;
+    list-style-type: none;
+}
+
+.info-box li a:focus, .info-box li a:hover {
+    background-color: #ebe8e8;
+    color: #ebe8e8;
+  }
+
+  .info-box li a.active {
+    background-color:#ebe8e8;
+    color: #ebe8e8;
+  }
 
 
 
