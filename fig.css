@@ -94,30 +94,6 @@ nav li {
     background-color:#ebe8e8;
     color: #ebe8e8;
   }
-/* styling info-box panels */
-info-box .panels {
-    clear: both;
-    position: relative;
-    height: 2800px;
-  }
-
-  .info-box div {
-    background-color: white;
-    color: blak;
-    position: absolute;
-    padding: 10px 10px;
-    height: 2800px;
-    top: 50px;
-    left: 0;
-  }
-.info-box div article {
-  background: white;
-   margin-left: 150px;
-   border-bottom: 3px solid #375e97;
-}
-  .info-box .active-panel {
-    z-index: 1;
-  }
 
 aside {
   background-color:white;
