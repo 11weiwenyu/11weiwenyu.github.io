@@ -43,31 +43,25 @@ h3{
 }
  figure img {
     display: flex;
-    flex-flow: column;
-    margin: auto;  
-}
- figcaption {
-    background-color: white;
-    color: black;
-    text-align: center;
-}
- figure ul {
-  padding: 0;
+   padding:5px;
+    flex-flow: column;  
+}  
+figure ul {
   list-style-type: none;
-  flex: 2;
   display: flex;
 }
  figure li {
+    padding: 5px;
   display: inline;
   text-align: center;
   flex: 4;
-}
+} 
  /* info-box setup */
 
   .info-box {
-    width: 90%;
+    width: 80%;
     height: 3000px;
-    margin: 10px auto 0;
+    margin: 20px auto 0;
   }
  /* styling info-box tabs */
     nav{
