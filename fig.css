@@ -87,6 +87,7 @@ nav li {
   flex: 1;
     float: center;
     list-style-type: none;
+    width: 150px;
 }
 nav a{
     display: inline-block;
