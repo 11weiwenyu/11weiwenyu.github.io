@@ -61,6 +61,13 @@ h3{
   text-align: center;
   flex: 4;
 }
+ /* info-box setup */
+
+  .info-box {
+    width: 90%;
+    height: 3000px;
+    margin: 10px auto 0;
+  }
 /* info-box setup */
 .info-box {
     width: 85%;
@@ -141,6 +148,7 @@ nav a:hover {
   .info-box .active-panel {
     z-index: 1;
   }
+
 aside {
   background-color:white;
   flex: 1;
