@@ -1,11 +1,12 @@
 html {
-    font-family: sans-serif;
   font-size: 10px;
   font-family: 'Noto Sans SC', sans-serif;
   }
   body {
     margin: 0;
-      pading:10px;
+  }
+* {
+    box-sizing: border-box;
   }
 
 /* 文字排版 */
