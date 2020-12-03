@@ -16,20 +16,21 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
-   margin-right:20px;
+    padding-right:5px;
 }
  article {
   background: white;
    margin-left: 150px;
+   margin-right: 5px;
    border-bottom: 3px solid #375e97;
 }
 .e1 img,.n2 img {
   float: left;
-  padding-left:200px;
+  padding-right:2px;
 }
 .n1 img {
   float: right;
-   padding-left:2px;
+   padding-right:2px;
 }
 h1 {
   font-size: 50px;
