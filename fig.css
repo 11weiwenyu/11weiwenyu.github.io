@@ -69,12 +69,6 @@ h3{
     height: 3000px;
     margin: 10px auto 0;
   }
-/* info-box setup */
-.info-box {
-    width: 85%;
-    height: 3000px;
-    margin: 20px auto 0;
-  }
  /* styling info-box tabs */
     nav{
       height: 50px;
@@ -127,7 +121,7 @@ nav a:hover {
     color: black;
   }
 
-  /* styling info-box panels */
+    /* styling info-box panels */
 
   .info-box .panels {
     clear: both;
@@ -140,7 +134,7 @@ nav a:hover {
     background-color: white;
     color: black;
     position: absolute;
-    padding: 10px 20px;
+    padding: 10px 10px;
     height: 3000px;
     top: 0;
     left: 0;
