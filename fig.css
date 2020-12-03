@@ -76,7 +76,6 @@ nav {
 
 nav ul {
   list-style-type: none;
-  display: flex;
     overflow: hidden;
     height: 50px;
     margin: 0;
@@ -85,9 +84,8 @@ nav ul {
 
 nav li {
   display: inline;
-  text-align: center;
   flex: 1;
-    float: left;
+    float: center;
     list-style-type: none;
 }
 nav a{
@@ -95,8 +93,8 @@ nav a{
     text-decoration: none;
     width: 100%;
     line-height: 50px;
-    background: white;
-    color: #ebe8e8;
+    background: #ebe8e8;
+    color: black;
     text-align: center;
     font-weight: bold;
 }
