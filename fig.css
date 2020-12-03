@@ -5,11 +5,12 @@ html {
   }
   body {
     margin: 0;
+      pading:10px;
   }
 
 /* 文字排版 */
 header {
-  height: 10px;
+  height: 80px;
 }
 p,li {
    font-size: 16px;
@@ -64,39 +65,37 @@ h3{
 .info-box {
     width: 85%;
     height: 3000px;
-    margin: 15px auto 0;
+    margin: 20px auto 0;
   }
- /* styling nav */
-nav {
-  height: 50px;
+ /* styling info-box tabs */
+    nav{
+      height: 50px;
   background-color: #ebe8e8;
   display: flex;
-  margin-bottom: 10px;
-}
-
-nav ul {
-  padding: 0;
+    }
+   nav ul {
+     padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
-}
+  }
 
-nav li {
-  display: inline;
+  nav li {
+    display: inline;
   text-align: center;
   flex: 1;
-}
+  }
 
-nav a {
-  display: inline-block;
-  font-size: 2rem;
+ nav a {
+   display: inline-block;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: #4682B4;
   transition-duration: 200ms;
-}
-
-nav form {
+    font-weight: bold;
+  }
+    nav form {
   flex: 1;
   display: flex;
   align-items: center;
@@ -105,11 +104,43 @@ nav form {
 }
 
 nav a:hover {
-  color: white;
+  color: black;
   text-shadow: 0 0 10px wheat;
   transition-duration: 200ms;
 }
 
+ .info-box li a:focus, .info-box li a:hover {
+    background-color: #ebe8e8;
+    color: black;
+  }
+
+  .info-box li a.active {
+    background-color: #ebe8e8;
+    color: black;
+  }
+
+  /* styling info-box panels */
+
+  .info-box .panels {
+    clear: both;
+    position: relative;
+    height: 3000px;
+     background-color: white;
+  }
+
+  .info-box div {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px 20px;
+    height: 3000px;
+    top: 0;
+    left: 0;
+  }
+
+  .info-box .active-panel {
+    z-index: 1;
+  }
 aside {
   background-color:white;
   flex: 1;
