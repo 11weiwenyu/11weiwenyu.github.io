@@ -119,7 +119,8 @@ info-box .panels {
   }
 
   .info-box .active-panel {
-    z-index: 1;
+      z-index: 1;
+}
 
 aside {
   background-color:white;
