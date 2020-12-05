@@ -24,15 +24,15 @@ p,li {
    margin-right: 5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n2 img,.g3 img  {
+.e1 img,.n2 img,.n3 img  {
   float: left;
   padding-right:2px;
 }
-.n1 img,.g1 img {
+.n1 img {
   float: right;
    padding-right:2px;
 }
-.g3 img {
+.n3 img {
   float: center;
    padding-right:2px;
 }
@@ -129,7 +129,7 @@ nav a:hover {
   .info-box .panels {
     clear: both;
     position: relative;
-    height: 2500px;
+    height: 3000px;
      background-color: white;
   }
 
@@ -138,7 +138,7 @@ nav a:hover {
     color: black;
     position: absolute;
     padding: 10px 10px;
-    height: 2500px;
+    height: 3000px;
     top: 0;
     left: 0;
   }
