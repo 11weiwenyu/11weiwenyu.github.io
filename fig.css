@@ -1,9 +1,11 @@
 html {
   font-size: 10px;
   font-family: 'Noto Sans SC', sans-serif;
+  overflow-x:hidden;
   }
   body {
     margin: 0;
+    overflow-x:hidden;
   }
 * {
     box-sizing: border-box;
@@ -24,12 +26,16 @@ p,li {
    margin-right: 5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n2 img {
+.e1 img,.n2 img,.g3 img  {
   float: left;
   padding-right:2px;
 }
-.n1 img {
+.n1 img,.g1 img {
   float: right;
+   padding-right:2px;
+}
+.g3 img {
+  float: center;
    padding-right:2px;
 }
 h1 {
@@ -65,7 +71,7 @@ figure ul {
 
   .info-box {
     width: 80%;
-    height: 3000px;
+    height: 2500px;
     margin: 20px auto 0;
   }
  /* styling info-box tabs */
@@ -125,7 +131,7 @@ nav a:hover {
   .info-box .panels {
     clear: both;
     position: relative;
-    height: 3000px;
+    height: 2500px;
      background-color: white;
   }
 
@@ -134,7 +140,7 @@ nav a:hover {
     color: black;
     position: absolute;
     padding: 10px 10px;
-    height: 3000px;
+    height: 2500px;
     top: 0;
     left: 0;
   }
