@@ -16,7 +16,7 @@ header {
 p,li {
    font-size: 16px;
   line-height: 2;
-
+  padding:5px;
 }
  article {
   background:white;
@@ -58,14 +58,14 @@ h3{
 figure ul {
   list-style-type: none;
   display: flex;
-  margin-left: -10px;
+  margin-left: -20px;
 }
  figure li {
    list-style: none; 
   display: inline;
   text-align: center;
     float: left;
-   padding-left: 15px;
+   padding-left: 50px;
 } 
 
  /* info-box setup */
