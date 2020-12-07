@@ -107,16 +107,7 @@ p,li {
    font-size: 16px;
   line-height: 2;
 }
- article {
-   margin-left: 150px;
-   border-bottom: 3px solid #375e97;
-}
- .e1 img,.n2 img {
-  float: left;
-}
-.n1 img {
-  float: right;
-}
+
 h1 {
   font-size: 50px;
   text-align: center;
@@ -262,7 +253,33 @@ aside li {
      </section>
 </section>
 
+<script>
 
+var tabs = document.querySelectorAll('.info-box li a');
+var panels = document.querySelectorAll('.info-box div');
+
+for(i = 0; i < tabs.length; i++) {
+  var tab = tabs[i];
+  setTabHandler(tab, i);
+}
+
+function setTabHandler(tab, tabPos) {
+  tab.onclick = function() {
+    for(i = 0; i < tabs.length; i++) {
+      tabs[i].className = '';
+    }
+
+    tab.className = 'active';
+
+    for(i = 0; i < panels.length; i++) {
+      panels[i].className = '';
+    }
+
+    panels[tabPos].className = 'active-panel';
+  }
+}
+
+</script>
 
 </body>
 </html>
