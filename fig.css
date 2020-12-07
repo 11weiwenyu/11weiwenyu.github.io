@@ -34,6 +34,7 @@ p,li {
 }
 .n2 img {
   float: center;
+  text-align: center;
    padding-right:2px;
 }
 h1 {
