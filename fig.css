@@ -65,6 +65,7 @@ figure ul {
   display: inline;
    padding:5px;
   text-align: center;
+    flex: 4;
 } 
 
  /* info-box setup */
