@@ -32,7 +32,6 @@ p,li {
 .m3 img,.n1 img,.g3 img,.dd2 img {
   float: right;
    padding-left:2px;
-   margin-right: 5px;
 }
 .n2 img,.g1 img {
    margin:0 auto;  
@@ -54,7 +53,7 @@ h3{
 }
  figure img {
     display: flex;
-   padding:5px;
+   padding:2px;
     flex-flow: column;  
 }  
 figure ul {
@@ -62,7 +61,6 @@ figure ul {
   display: flex;
 }
  figure li {
-    padding: 5px;
   display: inline;
   text-align: center;
   flex: 4;
