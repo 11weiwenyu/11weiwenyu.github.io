@@ -19,6 +19,8 @@ p,li {
     padding-right:5px;
 }
  article {
+   font-size: 16px;
+   line-height: 2;
   background:white;
    margin-left: 150px;
    margin-right: 5px;
