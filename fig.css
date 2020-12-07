@@ -51,7 +51,11 @@ h3{
     font-size:20px;
     text-align:left
 }
- 
+  figure img {
+    display: flex;
+   padding:5px;
+    flex-flow: column;  
+} 
 figure ul {
   list-style-type: none;
   display: flex;
