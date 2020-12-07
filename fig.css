@@ -59,7 +59,7 @@ h3{
 figure ul {
   list-style-type: none;
   display: flex;
-  margin: -5px;
+  margin-left: -10px;
 }
  figure li {
    list-style: none; 
