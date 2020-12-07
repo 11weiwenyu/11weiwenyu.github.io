@@ -62,8 +62,6 @@ figure ul {
 }
  figure li {
    list-style: none; 
-   width:auto;
-   height:auto;
   display: inline;
    padding:5px;
   text-align: center;
