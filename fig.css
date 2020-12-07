@@ -60,7 +60,7 @@ figure ul {
   list-style-type: none;
   display: flex;
    overflow: hidden;
-  margin: 0px;
+  margin: -20px;
 }
  figure li {
    list-style: none; 
