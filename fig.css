@@ -36,6 +36,7 @@ p,li {
 }
 .n2 img,.g1 img {
   float: center;
+   display: table-cell;
   text-align: center;
    padding-right:2px;
 }
