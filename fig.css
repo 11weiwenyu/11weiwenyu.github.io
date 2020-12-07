@@ -35,8 +35,9 @@ p,li {
    margin-right: 5px;
 }
 .n2 img,.g1 img {
-  float: center;
-   display: table-cell;
+    float:left;    
+    position:relative;    
+    left:50%;   
   text-align: center;
    padding-right:2px;
 }
