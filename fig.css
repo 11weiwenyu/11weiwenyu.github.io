@@ -28,9 +28,9 @@ p,li {
   float: left;
   padding-right:2px;
 }
-.n1 img,.g3 img {
+.m3 img,.n1 img,.g3 img {
   float: right;
-   padding-right:2px;
+   padding-left:2px;
 }
 .n2 img {
   float: center;
