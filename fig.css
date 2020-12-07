@@ -24,15 +24,15 @@ p,li {
    margin-right: 5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n3 img,.dd1 img  {
+.e1 img,.n3 img,.dd1 img,.h2 img  {
   float: left;
   padding-right:5px;
 }
-.m3 img,.n1 img,.g3 img,.dd2 img {
+.m3 img,.n1 img,.g3 img,.dd2 img,.h3 img {
   float: right;
    padding-left:5px;
 }
-.n2 img,.g1 img {
+.n2 img,.g1 img,.h1 img {
    margin:0 auto;  
   text-align: center;
    padding-right:5px;
