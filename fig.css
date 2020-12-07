@@ -24,15 +24,15 @@ p,li {
    margin-right: 5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n2 img,.n3 img  {
-  float: right;
+.e1 img,.n3 img  {
+  float: left;
   padding-right:2px;
 }
 .n1 img {
   float: right;
    padding-right:2px;
 }
-.n3 img {
+.n2 img {
   float: center;
    padding-right:2px;
 }
