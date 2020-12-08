@@ -44,6 +44,7 @@ p,li {
   text-align: center;
    padding-right:5px;
   display: flex;
+   flex-flow: column; 
 }
 h1 {
   font-size: 50px;
