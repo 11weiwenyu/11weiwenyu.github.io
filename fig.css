@@ -68,6 +68,7 @@ h3{
 figure ul {
   list-style-type: none;
   display: flex;
+   margin-right: 20px;
 }
  figure li {
    list-style: none; 
