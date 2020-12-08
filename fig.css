@@ -39,7 +39,7 @@ p,li {
   padding-left:5px;
   margin-right: 5px;
 }
-.n2 img,.g1 img,.h1 img {
+.n2 img,.g1 img,.hh1 img {
    margin:0 auto;  
   text-align: center;
    padding-right:5px;
@@ -60,7 +60,7 @@ h3{
  
   figure img {
     display: flex;
-    
+    margin:0 auto;
     flex-flow: column;  
 } 
 figure ul {
@@ -72,6 +72,7 @@ figure ul {
   display: inline;
   text-align: center;
    padding-left: 5px;
+   margin-right: 500px;
 }
  /* info-box setup */
 
