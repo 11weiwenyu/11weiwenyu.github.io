@@ -32,7 +32,11 @@ p,li {
   float: right;
    padding-left:5px;
 }
-
+.m3 img{
+  border-radius: 170px;
+  padding-left:5px;
+  margin-right: 5px;
+}
 .n2 img,.g1 img,.h1 img {
    margin:0 auto;  
   text-align: center;
