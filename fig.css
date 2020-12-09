@@ -70,13 +70,12 @@ figure ul {
    list-style: none; 
   display: inline;
   text-align: center;
-   padding: 5px;
+   padding: 10px;
    overflow: hidden；
   flex: 1;
 }
 figure img {
    margin:0 auto;
-   padding:5px;
 }
  /* info-box setup */
 
