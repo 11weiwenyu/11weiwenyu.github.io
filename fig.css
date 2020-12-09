@@ -12,8 +12,6 @@ html {
 /* 文字排版 */
 header {
   height: 100px;
-  background-color: black;
-  color:white;
 }
 p,li {
    font-size: 16px;
