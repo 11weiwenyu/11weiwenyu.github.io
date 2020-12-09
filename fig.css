@@ -4,7 +4,6 @@ html {
   }
   body {
     margin: 0;
-    background-color: #87CEFA;
   }
 * {
     box-sizing: border-box;
@@ -12,8 +11,9 @@ html {
 
 /* 文字排版 */
 header {
-  height: 80px;
+  height: 100px;
   background-color: black;
+  color:white;
 }
 p,li {
    font-size: 16px;
