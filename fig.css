@@ -4,8 +4,9 @@ html {
   }
   body {
     margin: 0;
-    background: url(images/封面.jpg);
-    background-repeat: no-repeat;
+    background-color: url(images/封面.jpg);
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
   }
 * {
     box-sizing: border-box;
