@@ -26,11 +26,11 @@ p,li {
    padding-right:5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n3 img,.dd1 img,.h2 img  {
+.e1 img,.n3 img,.dd1 img,.g3 img,.h2 img  {
   float: left;
   padding-right:5px;
 }
-.m3 img,.n1 img,.g3 img,.dd2 img,.h3 img {
+.m3 img,.n1 img,.dd2 img,.h3 img {
   float: right;
    padding-left:5px;
 }
@@ -63,8 +63,12 @@ h3{
   figure img {
     display: flex;
     margin:0 auto;
-    flex-flow: column;  
+    flex-flow: column; 
+    max-width:280px;
 } 
+figure {
+padding: 2%;
+}
 figure ul {
   list-style-type: none;
   display: flex;
@@ -74,6 +78,7 @@ figure ul {
   display: inline;
   text-align: center;
    padding-left: 5px;
+   overflow: hidden
 }
  /* info-box setup */
 
