@@ -21,7 +21,6 @@ p,li {
  article {
   background:white;
    margin-left: 150px;
-   margin-right: 5px;
    padding-left:5px;
    padding-right:5px;
    border-bottom: 3px solid #375e97;
@@ -59,7 +58,9 @@ h3{
     font-size:20px;
     text-align:left
 }
- 
+ figure {
+margin:0 auto;
+}
 figure ul {
   list-style-type: none;
   display: flex;
