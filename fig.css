@@ -59,9 +59,7 @@ h3{
     font-size:20px;
     text-align:left
 }
- figure {
-margin:0 auto;
-}
+
   figure img {
     display: flex;
     margin:0 auto;
@@ -71,6 +69,7 @@ margin:0 auto;
 figure ul {
   list-style-type: none;
   display: flex;
+  flex: 2;
 }
  figure li {
    list-style: none; 
