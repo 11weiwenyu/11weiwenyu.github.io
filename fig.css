@@ -75,6 +75,10 @@ figure ul {
    overflow: hidden；
   flex: 1;
 }
+figure img {
+   margin:0 auto;
+   padding-left:5px;
+}
  /* info-box setup */
 
   .info-box {
