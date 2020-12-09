@@ -59,9 +59,7 @@ h3{
     font-size:20px;
     text-align:left
 }
- figure {
-margin:0 auto;
-}
+ 
 figure ul {
   list-style-type: none;
   display: flex;
