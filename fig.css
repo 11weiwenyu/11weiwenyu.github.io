@@ -66,7 +66,6 @@ margin:0 auto;
     display: flex;
     margin:0 auto;
     flex-flow: column; 
-    padding-left: 5px;
 } 
 
 figure ul {
@@ -78,7 +77,7 @@ figure ul {
   display: inline;
   text-align: center;
    padding-left: 5px;
-   overflow: hidden
+   overflow: hidden；
       flex: 2;
 }
  /* info-box setup */
