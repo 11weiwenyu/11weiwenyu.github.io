@@ -4,10 +4,7 @@ html {
   }
   body {
     margin: 0;
-    background-color: url(images/封面.jpg);
-    background-size:cover;
-    background-repeat:no-repeat; 
-    background-attachment:fixed;
+    background-color: #87CEFA;
   }
 * {
     box-sizing: border-box;
@@ -16,6 +13,7 @@ html {
 /* 文字排版 */
 header {
   height: 80px;
+  background-color: black;
 }
 p,li {
    font-size: 16px;
