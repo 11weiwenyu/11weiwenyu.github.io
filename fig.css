@@ -26,11 +26,11 @@ p,li {
    padding-right:5px;
    border-bottom: 3px solid #375e97;
 }
-.e1 img,.n3 img,.dd1 img,.g3 img,.h2 img  {
+.e1 img,.n3 img,.dd1,.g3 img,.h2 img  {
   float: left;
   padding-right:5px;
 }
-.m3 img,.n1 img,.dd2 img,.h3 img {
+.m3 img,.n1 img,.dd2,.h3 img {
   float: right;
    padding-left:5px;
 }
