@@ -11,8 +11,10 @@ html {
 
 /* 文字排版 */
 header {
-  height: 100px;
-  background:black;
+  height: 120px;
+  background:ur1(images/封面2.jpg);
+  width: 100%;
+	height: 150px;
   color:white;
 }
 p,li {
