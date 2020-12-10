@@ -4,6 +4,10 @@ html {
   }
   body {
     margin: 0;
+    background:url(images/封面3.jpg);
+        background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
   }
 * {
     box-sizing: border-box;
@@ -12,8 +16,6 @@ html {
 /* 文字排版 */
 header {
   height: 120px;
-  background:ur1(images/封面3.jpg);
-  color:white;
 }
 p,li {
    font-size: 16px;
