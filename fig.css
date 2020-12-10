@@ -12,15 +12,12 @@ html {
 /* 文字排版 */
 header {
   height: 120px;
-  background:ur1(images/封面2.jpg);
-  width: 100%;
-	height: 150px;
+  background:ur1(images/封面3.jpg);
   color:white;
 }
 p,li {
    font-size: 16px;
   line-height: 2;
-  padding:5px;
 }
  article {
   background:white;
@@ -94,7 +91,7 @@ figure img {
   }
  /* styling info-box tabs */
     nav{
-      height: 50px;
+      height: 60px;
   background-color: #ebe8e8;
   display: flex;
     }
@@ -117,7 +114,7 @@ figure img {
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4682B4;
+  color: black;
   transition-duration: 200ms;
     font-weight: bold;
   }
@@ -143,6 +140,7 @@ nav a:hover {
   .info-box li a.active {
     background-color: #ebe8e8;
     color: black;
+    border-bottom: 3px solid #FFA07A;
   }
 
     /* styling info-box panels */
@@ -169,7 +167,6 @@ nav a:hover {
   }
 
 aside {
-  background-color:#ebe8e8;
   flex: 1;
  margin-right: 0px;
  float: left;
@@ -177,7 +174,7 @@ aside {
     height: 400px;
 }
 aside li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
  
 footer {
