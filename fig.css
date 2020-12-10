@@ -12,6 +12,8 @@ html {
 /* 文字排版 */
 header {
   height: 100px;
+  background:black;
+  color:white;
 }
 p,li {
    font-size: 16px;
@@ -28,6 +30,9 @@ p,li {
 .e1 img,.n3 img,.dd1,.g3 img,.h2 img  {
   float: left;
   padding-right:5px;
+}
+.e1{ 
+background-color:#FFE4E1;
 }
 .m3 img,.n1 img,.dd2,.h3 img {
   float: right;
@@ -106,6 +111,7 @@ figure img {
 
  nav a {
    display: inline-block;
+   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -161,7 +167,7 @@ nav a:hover {
   }
 
 aside {
-  background-color:white;
+  background-color:#ebe8e8;
   flex: 1;
  margin-right: 0px;
  float: left;
