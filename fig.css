@@ -27,13 +27,11 @@ p,li {
    padding-left:5px;
    padding-right:5px;
    border-bottom: 3px solid #375e97;
+   opacity: 0.86;
 }
 .e1 img,.n3 img,.dd1,.g3 img,.h2 img  {
   float: left;
   padding-right:5px;
-}
-.e1{ 
-background-color:#FFE4E1;
 }
 .m3 img,.n1 img,.dd2,.h3 img {
   float: right;
@@ -142,7 +140,7 @@ nav a:hover {
   .info-box li a.active {
     background-color: #ebe8e8;
     color: black;
-    border-bottom: 3px solid #FFA07A;
+    border-bottom: 3px solid #375e97;
   }
 
     /* styling info-box panels */
